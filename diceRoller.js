@@ -5,7 +5,7 @@ const diceRoller = (input) => {
   } else {
     const [rolls, sides] = [+match[1], +match[2]];
 
-    return [...Array(rolls)]
+    return Array(rolls)
       .fill(getRandomIntInclusive(1, sides))
       .reduce((acc, roll) => acc + roll, 0);
   }
