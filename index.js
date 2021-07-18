@@ -1,4 +1,4 @@
-const diceRoller = require('./dice.js');
+const diceRoller = require('./diceRoller.js');
 
 try {
   const result = diceRoller(process.argv[2]);

@@ -1,4 +1,4 @@
-const diceRoller = require("./dice.js");
+const diceRoller = require("./diceRoller.js");
 
 test("Roll a d12 five times", () => {
   expect(diceRoller("5d12")).toBeWithinRange(5, 60);
